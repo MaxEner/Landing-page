@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+
+
+nav {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav span {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+
+nav img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.links ul {
+    display: flex;
+    gap: 25px;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links li a {
+    color: #F4FEFD;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-container {
+    width: 400px;
+    margin-right: 50px;
+}
+.left-container h1, h3 {
+    color: #F4FEFD;
+    margin-bottom: 20px;
+}
+
+.left-container button {
+    color: #F4FEFD;
+    background-color: #3882f6;
+    padding: 6px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 24px;
+}
+
+
+.right-container img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+
+
+.team-info {
+    background-color: #F4FEFD;
+    padding: 30px;
+}
+
+.team-info h1 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.team-desc img {
+    width: 200px;
+    height: auto;
+    border-radius: 16px;
+    border: 4px solid #3882f6;
+}
+
+.team-desc p {
+    max-width: 200px;
+}
+
+.team-message {
+    background-color: #E5E7EB;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team-message .container {
+    width: 800px;
+   
+}
+
+.team-message .first {
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.team-message .second {
+    text-align: right;
+    margin-right: 30px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contact {
+    background-color: #3882f6;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.contact .left-side p {
+    color: #E5E7EB;
+}
+
+.contact .left-side .reply {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.signup-buttom button {
+    color: #F4FEFD;
+    background-color: #3882f6;
+    padding: 6px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 24px;
+    border: 2px solid white;
+}
+
+.footer {
+
+    background-color: #1f2937;
+    padding: 20px 0;
+    
+}
+.footer p {
+    color: #E5E7EB;
+    text-align: center;
+}
